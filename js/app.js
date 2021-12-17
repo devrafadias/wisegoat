@@ -1,0 +1,1 @@
+document.querySelector("#btnPedirConselho").addEventListener("click", () => window.location.href = "conselho.html");

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root {
+  --font-size: 25px;
+  --body-width: 100vw;
+  --body-height: 100vh;
+  --bg-default: #ffffffcc;
+  --color-default: #ebe4e0;
+  --color-wise: #ac9aa4;
+  --color-wise-name: #72005f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size);
+}
+
+body {
+  background: var(--bg-default);
+  height: var(--body-height);
+  width: var(--body-width);
+  
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo {
+    background-color: white;
+    max-width: 200px;
+    margin: 40px 0px 0px 80px;
+}
+
+.titulo p {
+    margin-left: 4px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #72005f;
+}
+
+.titulo h2 {
+    font-weight: 900;
+    color: #ccb1a3;
+}
+
+.container {
+  margin: auto;
+  width: 1280px;
+  height: 500px;
+  background-color: #f5e9e3;
+  display: flex;
+  margin-top: 100px;
+}
+
+.texto {
+    background-color: burlywood;
+}
+
+span {
+    margin-left: 120px;
+    color: #c79277;
+}
+
+#conselho{
+    width: 60%;
+    margin-top: 50px;
+    line-height: 42px;
+    color: #72005f;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.container > div {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 90px;
+}
+
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/bode.png');
+    border-radius: 20px 0px 0px 20px;    
+}

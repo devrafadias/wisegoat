@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root {
+  --font-size: 42px;
+  --body-width: 100vw;
+  --body-height: 100vh;
+  --bg-default: #ffffffcc;
+  --color-wise: #ccb1a3;
+  --color-wise-name: #72005f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size);
+}
+
+body {
+  background: var(--bg-default);
+  height: var(--body-height);
+  width: var(--body-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+aside {
+  align-self: flex-start;
+  justify-self: start;
+  margin: 20px;
+}
+
+aside h2 {
+  color: var(--color-wise);
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+
+aside > p {
+  color: var(--color-wise-name);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.container {
+  align-self: center;
+  display: flex;
+}
+
+.container > div {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 90px;
+}
+
+.texto {
+  padding-left: 20%;
+}
+
+.img-bodezinho {
+  justify-self: center;
+  align-self: center;
+  margin-left: 80px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: var(--color-wise-name);
+    border-radius: 14px;
+    border-style: none;
+    font-size: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
